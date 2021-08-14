@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17775" started-at="2021-08-08T04:32:31Z" finished-at="2021-08-08T04:32:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17775" started-at="2021-08-08T04:32:31Z" finished-at="2021-08-08T04:32:48Z">
+      <class name="org.magnitia.testng.Testngwithselenium">
+        <test-method status="PASS" signature="precondition()[pri:0, instance:org.magnitia.testng.Testngwithselenium@2357d90a]" name="precondition" is-config="true" duration-ms="6215" started-at="2021-08-08T10:02:31Z" finished-at="2021-08-08T10:02:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="PASS" signature="openurl()[pri:1, instance:org.magnitia.testng.Testngwithselenium@2357d90a]" name="openurl" duration-ms="7193" started-at="2021-08-08T10:02:37Z" finished-at="2021-08-08T10:02:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method status="PASS" signature="clickmyaccount()[pri:2, instance:org.magnitia.testng.Testngwithselenium@2357d90a]" name="clickmyaccount" duration-ms="2556" started-at="2021-08-08T10:02:44Z" depends-on-methods="org.magnitia.testng.Testngwithselenium.openurl" finished-at="2021-08-08T10:02:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickmyaccount -->
+        <test-method status="PASS" signature="login()[pri:3, instance:org.magnitia.testng.Testngwithselenium@2357d90a]" name="login" duration-ms="1746" started-at="2021-08-08T10:02:47Z" depends-on-methods="org.magnitia.testng.Testngwithselenium.clickmyaccount" finished-at="2021-08-08T10:02:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- org.magnitia.testng.Testngwithselenium -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
